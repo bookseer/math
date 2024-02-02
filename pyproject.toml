@@ -120,12 +120,12 @@ stop = "deactivate; exit"
 
 # Build book
 build = """
-jupyter-book ./book/ build --all --builder html
+jupyter-book build --all --builder html ./book/
 """
 
 # Build and publish book
 publish = """
-jupyter-book build ./book/ --all --builder html
+poetry exec build
 ghp-import ./book/_build/html --no-jekyll --push --force --cname=math.bookseer.org
 """
 
