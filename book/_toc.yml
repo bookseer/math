@@ -9,4 +9,6 @@ parts:
   - file: info/index
     sections:
     - file: info/typography
-
+- caption: Введение
+  chapters:
+  - file: intro/index
