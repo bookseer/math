@@ -68,7 +68,6 @@ pyupgrade = "~3.15"
 [tool.poetry.group.binder.dependencies]
 ipywidgets = "~8.1"
 jupytext = "~1.16"
-sphinxcontrib-asciinema = "~0.4"
 sphinx-click = "~5.1"
 sphinx-inline-tabs = "~2023.4"
 sphinx-proof = "~0.1"
