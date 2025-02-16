@@ -8,7 +8,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "bookseer-math"
-version = "2025.02.15"
+version = "2025.02.16"
 description = "Математика"
 authors = ["Alexander Krasnikov <askrasnikov@gmail.com>"]
 maintainers = ["askras <askrasnikov@gmail.com>"]
@@ -17,7 +17,7 @@ readme = "README.md"
 homepage = "https://math.bookseer.org"
 repository = "http://github.com/bookseer/math"
 documentation = "https://math.bookseer.org/docs.html"
-keywords = ["education, statistics, algebra, math, analysis, geometry, probability, mathematics"]
+keywords = ["education", "statistics", "algebra", "math", "analysis", "geometry", "probability", "mathematics"]
 packages = [{include = "bookseer", from = "src"}]
 exclude = ["book/*"]
 classifiers = [ # https://pypi.org/classifiers/
